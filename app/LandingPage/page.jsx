@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Page = () => {
   return (
     <div>
-      <div className='relative'>
+      <div className='relative '>
       <div className="background-image absolute inset-0 " >
         <Image
           src="/assets/landingpage.png" 
@@ -14,7 +14,7 @@ const Page = () => {
           className='w-full max-h-screen'
         />
       </div>
-      <div className='relative z-10'>
+      <div className='relative z-10 h-full'>
         <div className='navbar justify-between flex  w-full 
         md:h-16 h-16 bg-white bg-opacity-40'>
           <div className='logo px-3'>
@@ -35,17 +35,17 @@ const Page = () => {
                Login
              </button></Link>
              <Link href="/register">
-             <button className='login md:w-24 w-20 h-9 bg-[#FFF1B2] rounded-lg md:text-lg text-sm
-             font-semibold font-sans text-black text-center'>
+             <button className='login md:w-24 w-20 h-9 bg-black rounded-lg md:text-lg text-sm
+             font-semibold font-sans text-[#FFF1B2] text-center'>
                 Register
              </button></Link>
           </div>
         </div>
-        <div className='body relative top-10'>
-          <div className='text'>
+        <div className='body flex flex-row h-full'>
+          <div className='text w-2/5'>
 
           </div>
-          <div className='box w-1/2 h-4/5 bg-black bg-opacity-40'>
+          <div className='box w-3/5 lg:h-[88vh] md:h-[80vh] flex justify-start items-end bg-black bg-opacity-40'>
 
           </div>
         </div>
