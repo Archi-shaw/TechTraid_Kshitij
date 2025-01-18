@@ -28,7 +28,8 @@ export default function Home() {
     {/* <Profile /> */}
     {/* <About /> */}
     {/* <Contact /> */}
-    <Login />
+    {/* <Login /> */}
+    
     </>
   );
 }
