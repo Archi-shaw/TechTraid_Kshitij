@@ -32,7 +32,7 @@ export default function Home() {
     {/* <Contact /> */}
     {/* <Login /> */}
     {/* <Register /> */}
-    <FAQ />
+    {/* <FAQ /> */}
     </>
   );
 }
