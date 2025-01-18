@@ -10,7 +10,7 @@ import Reviews from './Review/page'
 import MagicSearch from './MagicSearch/page'
 import  Profile from './Profile/page'
 import  About from './About/page'
-
+import Contact from './Contactus/page'
 export default function Home() {
   return (
     <>
@@ -25,7 +25,8 @@ export default function Home() {
     {/* <Reviews /> */}
     {/* <MagicSearch /> */}
     {/* <Profile /> */}
-    <About />
+    {/* <About /> */}
+    <Contact />
     </>
   );
 }
