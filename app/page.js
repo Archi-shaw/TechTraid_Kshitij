@@ -11,6 +11,7 @@ import MagicSearch from './MagicSearch/page'
 import  Profile from './Profile/page'
 import  About from './About/page'
 import Contact from './Contactus/page'
+import Login from './Login/page'
 export default function Home() {
   return (
     <>
@@ -26,7 +27,8 @@ export default function Home() {
     {/* <MagicSearch /> */}
     {/* <Profile /> */}
     {/* <About /> */}
-    <Contact />
+    {/* <Contact /> */}
+    <Login />
     </>
   );
 }
