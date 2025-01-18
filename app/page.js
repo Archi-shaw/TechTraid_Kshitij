@@ -14,6 +14,7 @@ import Contact from './Contactus/page'
 import Login from './Login/page'
 import Register from './Register/page'
 import FAQ from './FAQ/page'
+import DemoPortal from '@/app/DemoPortal/page'
 export default function Home() {
   return (
     <>
@@ -33,6 +34,7 @@ export default function Home() {
     {/* <Login /> */}
     {/* <Register /> */}
     {/* <FAQ /> */}
+    <DemoPortal />
     </>
   );
 }
