@@ -13,6 +13,7 @@ import  About from './About/page'
 import Contact from './Contactus/page'
 import Login from './Login/page'
 import Register from './Register/page'
+import FAQ from './FAQ/page'
 export default function Home() {
   return (
     <>
@@ -30,7 +31,8 @@ export default function Home() {
     {/* <About /> */}
     {/* <Contact /> */}
     {/* <Login /> */}
-    <Register />
+    {/* <Register /> */}
+    <FAQ />
     </>
   );
 }
