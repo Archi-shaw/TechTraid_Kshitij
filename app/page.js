@@ -9,13 +9,15 @@ import ProductComparison from './Productcomparison/page'
 import Reviews from './Review/page'
 import MagicSearch from './MagicSearch/page'
 import  Profile from './Profile/page'
+import  About from './About/page'
+
 export default function Home() {
   return (
     <>
     {/* <Landing />
     <Worksmart />
     <Testimonials /> */}
-    <Dashboard />
+    {/* <Dashboard /> */}
     {/* <Vendor /> */}
     {/* <CreateRFQ /> */}
     {/* <RFQManagement /> */}
@@ -23,6 +25,7 @@ export default function Home() {
     {/* <Reviews /> */}
     {/* <MagicSearch /> */}
     {/* <Profile /> */}
+    <About />
     </>
   );
 }
