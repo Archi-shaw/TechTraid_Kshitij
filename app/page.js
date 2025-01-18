@@ -6,17 +6,23 @@ import Vendor from '@/app/Find_vendor/page'
 import CreateRFQ from './CreateRfq/page'
 import RFQManagement from './Rfqmanagement/page'
 import ProductComparison from './Productcomparison/page'
+import Reviews from './Review/page'
+import MagicSearch from './MagicSearch/page'
+import  Profile from './Profile/page'
 export default function Home() {
   return (
     <>
     {/* <Landing />
     <Worksmart />
     <Testimonials /> */}
-    {/* <Dashboard /> */}
+    <Dashboard />
     {/* <Vendor /> */}
     {/* <CreateRFQ /> */}
     {/* <RFQManagement /> */}
-    <ProductComparison />
+    {/* <ProductComparison /> */}
+    {/* <Reviews /> */}
+    {/* <MagicSearch /> */}
+    {/* <Profile /> */}
     </>
   );
 }
