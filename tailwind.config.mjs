@@ -8,8 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        newsreader: ['Newsreader', 'serif'], // Adding Newsreader font
-        plusJakarta: ['Plus Jakarta Sans', 'sans-serif'], // Adding Plus Jakarta Sans font
+        newsreader: ['Newsreader', 'serif'],
+        plusJakarta: ['Plus Jakarta Sans', 'sans-serif'],
       },
     },
   },

@@ -1,11 +1,14 @@
-import Image from "next/image";
 import Landing from '@/app/LandingPage/page'
-import worksmart from '@/app/worksmart/page'
+import Worksmart from '@/app/worksmart/page'
+import Testimonials from '@/app/Testimonials/page'
+import Dashboard from '@/app/Dashboard/page'
 export default function Home() {
   return (
     <>
-    <Landing />
-    <worksmart />
+    {/* <Landing />
+    <Worksmart />
+    <Testimonials /> */}
+    <Dashboard />
     </>
   );
 }
