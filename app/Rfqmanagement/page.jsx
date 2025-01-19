@@ -1,7 +1,36 @@
 // components/RFQManagement.js
+import Link from "next/link";
+import Image from "next/image";
 export default function RFQManagement() {
     return (
       <div className="bg-blue-100 min-h-screen p-6">
+         {/* Navbar section */}
+         <div className='navbar justify-between flex  w-full 
+        md:h-16 h-16 bg-[#ade3fb] bg-opacity-40'>
+          <div className='logo px-3'>
+         <Link href='/'> 
+         <Image
+          src="/assets/workwiselogo.png" 
+          alt="Landing Page"
+          width={1600}
+          height={1600}
+          className='md:w-36 w-32 md:h-16 h-14 opacity-100 '
+        /></Link>
+          </div>
+          <div className='signup flex flex-row md:gap-7 gap-4 md:px-10 px-3 justify-center items-center'>
+            <Link href="/login">
+             <button className='login md:w-24 w-16 h-9 bg-[#FFF1B2] rounded-lg md:text-lg
+              text-sm font-semibold font-sans
+              text-black text-center'>
+               Login
+             </button></Link>
+             <Link href="/register">
+             <button className='login md:w-24 w-20 h-9 bg-black rounded-lg md:text-lg text-sm
+             font-semibold font-sans text-[#FFF1B2] text-center'>
+                Register
+             </button></Link>
+          </div>
+        </div>
         {/* Header Section */}
         <header className="flex justify-between items-center mb-6">
           <div className="text-2xl font-bold text-gray-800">RFQ Management</div>
@@ -12,9 +41,37 @@ export default function RFQManagement() {
               className="p-2 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 w-64"
             />
             <div className="text-gray-600 flex space-x-3">
-              <span className="material-icons">notifications</span>
-              <span className="material-icons">settings</span>
-              <span className="material-icons">account_circle</span>
+            <div className="flex gap-2">
+                <Link href="/">
+                  <Image
+                    src="/assets/bell.png"
+                    alt="Notifications"
+                    width={1600}
+                    height={1600}
+                    className="w-9 h-9"
+                  />
+                </Link>
+
+                <Link href="/">
+                  <Image
+                    src="/assets/setting.png"
+                    alt="Settings"
+                    width={1600}
+                    height={1600}
+                    className="w-9 h-9"
+                  />
+                </Link>
+
+                <Link href="/">
+                  <Image
+                    src="/assets/profile.png"
+                    alt="Profile"
+                    width={1600}
+                    height={1600}
+                    className="w-9 h-9"
+                  />
+                </Link>
+              </div>
             </div>
           </div>
         </header>

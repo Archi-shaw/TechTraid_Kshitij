@@ -116,41 +116,41 @@ export default function About() {
       </section>
 
       {/* Team Section */}
-      <section className="py-16 bg-white text-center">
-        <h2 className="text-2xl font-bold mb-4">Meet our team</h2>
+      <section className="py-16 bg-[#D5EAE8] text-center">
+        <h2 className="text-2xl font-bold mb-4 font-newsreader">Meet our team</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <div className="p-4">
             <Image
-              src="/team-member1.jpg" // Replace with actual images
+              src="/assets/image 5.png" // Replace with actual images
               alt="Team Member 1"
               width={150}
               height={150}
-              className="rounded-full mx-auto"
+              className="mx-auto"
             />
-            <h3 className="mt-4 text-xl font-semibold">John Doe</h3>
-            <p className="text-gray-600">Role</p>
+            <h3 className="mt-4 text-xl font-semibold">Mukul Jatav</h3>
+            <p className="text-gray-600">software developer</p>
           </div>
           <div className="p-4">
             <Image
-              src="/team-member2.jpg"
+              src="/assets/image 6.png"
               alt="Team Member 2"
               width={150}
               height={150}
-              className="rounded-full mx-auto"
+              className=" mx-auto"
             />
-            <h3 className="mt-4 text-xl font-semibold">Jane Smith</h3>
-            <p className="text-gray-600">Role</p>
+            <h3 className="mt-4 text-xl font-semibold">Siddharth Kothari</h3>
+            <p className="text-gray-600">software developer</p>
           </div>
           <div className="p-4">
             <Image
-              src="/team-member3.jpg"
+              src="/assets/image 7.png"
               alt="Team Member 3"
               width={150}
               height={150}
-              className="rounded-full mx-auto"
+              className=" mx-auto"
             />
-            <h3 className="mt-4 text-xl font-semibold">Chris Brown</h3>
-            <p className="text-gray-600">Role</p>
+            <h3 className="mt-4 text-xl font-semibold">Imtiaj</h3>
+            <p className="text-gray-600">software developer</p>
           </div>
         </div>
       </section>
