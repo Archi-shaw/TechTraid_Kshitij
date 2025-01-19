@@ -28,11 +28,11 @@ const page = () => {
           height={2000}
           className=' relative w-64 h-64 bottom-28 right-96'></Image>
         </div>
-        <div className="details relative flex flex-col gap-8">
+        {/* <div className="details relative flex flex-col gap-8">
         <div className="w-72 h-16 bg-[#1A4353] rounded-xl flex flex-row gap-3 mt-12">
 
         </div>
-        </div>
+        </div> */}
         </div>
     </div>
   )

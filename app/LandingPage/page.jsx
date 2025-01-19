@@ -1,10 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
+import Worksmart from '@/app/worksmart/page'
+import Testimonials from '@/app/Testimonials/page'
+import DemoPortal from '@/app/DemoPortal/page'
+import FAQ from '@/app/FAQ/page'
 const Page = () => {
   return (
     <div>
-      <div className='relative '>
+      <div className='relative'>
       <div className="background-image absolute inset-0 " >
         <Image
           src="/assets/landingpage.png" 
@@ -61,7 +64,7 @@ const Page = () => {
               text-[#FFF1B2] text-center'>
                Services
              </button></Link>
-             <Link href="/contactus">
+             <Link href="/contact">
              <button className='login md:w-36 w-16 h-10 bg-[#1A4353] rounded-3xl md:text-lg
               text-sm font-semibold font-sans
               text-[#FFF1B2] text-center'>
@@ -74,11 +77,11 @@ const Page = () => {
              font-newsreader lg:text-6xl md:text-4xl text-2xl text-white items-end'>
             Boost your profitability with our AI-driven procurement solutions.
             </div> 
-            <Link href="/register">
+            <Link href="/Dashboard">
              <button className='login md:w-36 w-28 h-11 bg-[#FFF1B2] rounded-lg md:text-lg
               text-sm font-semibold font-sans
               text-black text-center'>
-               Get Started
+               Dashboard
              </button></Link>
              <div className='text w-3/5 h-1/3 text-right font-plusJakarta font-bold
             lg:text-xl sm:text-base text-sm text-white items-end'>
@@ -87,7 +90,11 @@ const Page = () => {
             </div>
           </div>
         </div>
-      </div></div>
+      </div>
+      </div>  
+      <Testimonials />
+      <DemoPortal />
+      <FAQ />
     </div>
   );
 };

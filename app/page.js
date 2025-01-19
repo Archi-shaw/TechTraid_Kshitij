@@ -1,6 +1,4 @@
 import Landing from '@/app/LandingPage/page'
-import Worksmart from '@/app/worksmart/page'
-import Testimonials from '@/app/Testimonials/page'
 import Dashboard from '@/app/Dashboard/page'
 import Vendor from '@/app/Find_vendor/page'
 import CreateRFQ from './CreateRfq/page'
@@ -9,18 +7,15 @@ import ProductComparison from './Productcomparison/page'
 import Reviews from './Review/page'
 import MagicSearch from './MagicSearch/page'
 import  Profile from './Profile/page'
-import  About from './About/page'
-import Contact from './Contactus/page'
-import Login from './Login/page'
-import Register from './Register/page'
-import FAQ from './FAQ/page'
+import  About from './aboutus/page'
+import Contact from './contact/page'
+import Login from './login/page'
+import Register from './register/page'
 import DemoPortal from '@/app/DemoPortal/page'
 export default function Home() {
   return (
     <>
-    {/* <Landing />
-    <Worksmart />
-    <Testimonials /> */}
+    <Landing />
     {/* <Dashboard /> */}
     {/* <Vendor /> */}
     {/* <CreateRFQ /> */}
@@ -34,7 +29,7 @@ export default function Home() {
     {/* <Login /> */}
     {/* <Register /> */}
     {/* <FAQ /> */}
-    <DemoPortal />
+    {/* <DemoPortal /> */}
     </>
   );
 }

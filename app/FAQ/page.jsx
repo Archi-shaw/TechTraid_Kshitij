@@ -9,11 +9,11 @@ const page = () => {
     };
   
   return (
-    <div>
-         <section className="py-12 bg-blue-50 text-center">
-        <h2 className="text-2xl font-bold">Frequently Asked Questions</h2>
+    <div className=''>
+         <section className="py-12 text-center bg-[#D9EFF8]">
+        <h2 className="text-4xl font-semibold font-newsreader tracking-normal">Frequently Asked Questions</h2>
 
-        <div className="mt-6 w-3/4 mx-auto">
+        <div className="mt-6 w-3/4 mx-auto ">
           {[
             {
               question: "What is Workwise?",
@@ -38,14 +38,14 @@ const page = () => {
           ].map((faq, index) => (
             <div key={index} className="border-b py-4">
               <button
-                className="w-full text-left flex justify-between items-center text-lg font-semibold"
+                className="w-full text-left flex justify-between items-center font-newsreader text-xl font-semibold"
                 onClick={() => toggleFaq(index)}
               >
                 {faq.question}
                 <span>{faqOpen === index ? '-' : '+'}</span>
               </button>
               {faqOpen === index && (
-                <p className="mt-2 text-gray-700">{faq.answer}</p>
+                <p className="mt-2 text-gray-700 font-newsreader text-lg text-left">{faq.answer}</p>
               )}
             </div>
           ))}

@@ -1,28 +1,22 @@
 import React from 'react'
-
+import Image from 'next/image'
+import Link from 'next/link'
 const page = () => {
   return (
        <section className="py-12 bg-yellow-100 text-center">
-        <h2 className="text-2xl font-bold">Portal Demo</h2>
-        <p className="mt-2 text-lg">See our platform in action</p>
+        <h2 className="text-4xl font-semibold font-newsreader">Portal Demo</h2>
+        <p className="mt-3 font-newsreader text-5xl">See our platform in action</p>
 
         <div className="mt-6 flex justify-center">
           <div className="relative w-3/4">
-            <img
-              src="/demo-thumbnail.jpg"
+          <Link href='https://youtu.be/-JPa1MX2HVE'>
+            <Image
+              src="/assets/demo-thumbnail.png"
+              width={10000}
+              height={10000}
               alt="Portal Demo Thumbnail"
-              className="w-full rounded shadow"
-            />
-            <a
-              href="https://www.youtube.com/watch?v=example"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="absolute inset-0 flex justify-center items-center"
-            >
-              <button className="bg-red-600 text-white p-4 rounded-full">
-                ▶
-              </button>
-            </a>
+              className="w-full"
+            /> </Link>
           </div>
         </div>
       </section>
